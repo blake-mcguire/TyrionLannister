@@ -1,0 +1,41 @@
+.headerDiv {
+    display: flex;
+    flex-direction: row;
+    background-image: url("../assets/WallBackgorund.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-around;
+    border-bottom: 4px solid gold;
+}
+
+.abt {
+    font-family: monospace;
+    font-size: 250%;
+    color: aliceblue;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 0%;
+}
+
+@media (max-width: 768px) {
+    .headerDiv {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .image{
+        width: 100%;
+        background-color: grey;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        border: 3px solid gold;
+        height:auto;
+    }
+    .abt {
+        font-size: 200%;
+    }
+}

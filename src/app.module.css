@@ -1,0 +1,9 @@
+.appBackground {
+    background-color: rgb(116, 116, 116);
+}
+
+@media (max-width: 768px) {
+    .appBackground {
+        padding: 10px;
+    }
+}
